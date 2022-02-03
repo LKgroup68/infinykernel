@@ -3,3 +3,5 @@ In this file you have more tools added every day for dev your distribution or mo
 # installer_sample.py
 it's an default installer
 if you want this installer for your infiny distribution, change the code !
+# shellgame.py
+This is a hasard number game, already used on LKOS distribution !
