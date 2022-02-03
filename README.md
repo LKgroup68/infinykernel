@@ -8,3 +8,5 @@ unzip the file
 and create with all tools
 
 the kernel will update in this day...
+
+you can edit this github and make pull resquet
