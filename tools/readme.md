@@ -1,4 +1,4 @@
-# TOOLS FOR LKOS
+# TOOLS FOR INFINY KERNEL
 In this file you have more tools added every day for dev your distribution or modify a distribution
 # installer_sample.py
 it's an default installer
