@@ -10,3 +10,7 @@ and create with all tools
 the kernel will update in this day...
 
 you can edit this github and make pull resquet
+# LKOS IS AN OS BASED ON INFINY KERNEL
+After infiny kernel developpement, I create the LKOS for public based on infiny kernel
+![alt text](https://github.com/LKgroup68/infinykernel/blob/main/LKOS%20SAMPLE.png)
+
