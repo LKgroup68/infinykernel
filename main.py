@@ -1,11 +1,12 @@
 import time
-import os 
+import os
+import psutil
 import shutil
+from tkinter import*
+print ("-=INFINTY CHECKER 0.0.3=-")
+print("")
+print("CKECKING COMPUTER AND LOADING SYSTEM...")
 
-print ("-=INFINTY CHECKER 0.0.1=-")
-print("swithing environment to usr folder...")
-os.system("cd usr")
-print("swithing environment to usr folder...OK")
 
 def formatSize(bytes):
     try:
@@ -27,18 +28,34 @@ free_space = formatSize(usage[2])
 
 CPU_Pct=str(round(float(os.popen('''grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage }' ''').readline()),2))
 
-print("------[info pc]-------")
+pid = os.getpid()
+py = psutil.Process(pid)
+ramuse = py.memory_info()[0]/2.**30 
+
+print("------[COMPUTER SPECIFICATION]-------")
 print ("RAM : OK")
 print ("CPU :",CPU_Pct,"%")
 print ("HARDDRIVE :",free_space,"free")  # Delays for 5 seconds. You can also use a float value.
-print("----------------------")
+print("-------------------------------------")
 systemboot = os.path.exists('main.py')
-sgb = os.path.exists("shellgame.py")
+systempathuser = os.path.exists('usr')
+systempathapp = os.path.exists('app')
 if systemboot == 1:
   print("SYSTEM BOOT......OK")
+  time.sleep(1)
 else:
   os.system("python3 OUTAGESCREEN.py")
-print("SHELLGAME......OK")
+if systempathuser == 1:
+  print("USER STORAGE......OK")
+  time.sleep(1)
+else:
+  os.system("python3 OUTAGESCREEN.py")
+if systempathapp == 1:
+  print("APP DIRECTORY......OK")
+  time.sleep(1)
+else:
+  os.system("python3 OUTAGESCREEN.py")
+print("-------------------------------------")
 time.sleep(2)
 os.system("clear")
 print("INFINY KERNEL")
