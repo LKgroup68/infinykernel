@@ -14,3 +14,6 @@ you can edit this github and make pull resquet
 After infiny kernel developpement, I create the LKOS for public based on infiny kernel
 ![alt text](https://github.com/LKgroup68/infinykernel/blob/main/LKOS%20SAMPLE.png)
 
+# TOOLS AND UTILITIES FOR MY DISTRIBUTION
+all tool and applications is in a file nammed "tools"
+
