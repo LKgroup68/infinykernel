@@ -17,3 +17,6 @@ After infiny kernel developpement, I create the LKOS for public based on infiny 
 # TOOLS AND UTILITIES FOR MY DISTRIBUTION
 all tool and applications is in a file nammed "tools"
 
+# RECOMENDATION FOR YOUR OS
+all recommandation is in recommandation file, go it and get recommandation
+
