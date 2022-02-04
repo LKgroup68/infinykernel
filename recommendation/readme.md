@@ -1,7 +1,7 @@
 # READ THIS PLEASE
 infiny kernel isn't very stable for this moment
 the version of kernel is 0.0.3
-**IF YOU WANT A QUITE STABLE KERNEL WAIT AT LEASR VERSION 0.1.0**
+**IF YOU WANT A QUITE STABLE KERNEL WAIT AT LEAST VERSION 0.1.0**
 you can still use our kernel because after all the tests the instability cannot be disturbing.
 
 # recommandation for your distribution
