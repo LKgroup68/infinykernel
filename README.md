@@ -1,4 +1,5 @@
 # infinykernel
+inspired by shellos bot 
 this is python kernel who LKOS is based
 you must have linux to create your distribution
 
