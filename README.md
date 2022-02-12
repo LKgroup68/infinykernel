@@ -7,6 +7,7 @@ you must have linux to create your distribution
 1. download neccesary files
 ```git clone https://github.com/LKgroup68/infinykernel```
 2. edit kernel, the base file is ```main.py```
+3. (not neccesary) Take apps and utilities on folder nammed ```tools```
 you can edit this github and make pull resquet
 # LKOS IS AN OS BASED ON INFINY KERNEL
 After infiny kernel developpement, I create the LKOS for public based on infiny kernel
