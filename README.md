@@ -2,6 +2,7 @@
 inspired by shellos bot 
 this is python kernel who LKOS is based
 you must have linux to create your distribution
+# NOT USE INFINY UI FOR THE MOMENT
 
 # CREATE YOUR OWN DITRIBUTION
 1. download neccesary files
