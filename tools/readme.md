@@ -7,5 +7,5 @@ if you want this installer for your infiny distribution, change the code !
 This is a hasard number game, already used on LKOS distribution !
 # paint.py
 **NOT USE THIS FILE, IS IN DEVELOPPEMENT**
-# paint.py
+# OUTAGESCREEN.py
 this is for screen if kernel not boot
